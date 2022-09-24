@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.section_one {
+    background: url('img/img03.jpg') center / cover fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    padding: 100px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.header_row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_logo {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: url('img/img02.jpg') center / cover;
+}
+a {
+    text-decoration: none;
+}
+
+.header_menu {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header_menu {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.info {
+    padding: 40px;
+    height: auto;
+    flex: 1 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.about_row {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(202, 199, 199, 0.436);
+    padding-right: 30px;
+}
+
+.about_image {
+    background: url('img/img04.jpg') center / cover;
+    width: 500px;
+    height: 300px;
+    flex: 0 1 auto;
+}
+
+.about_content {
+    text-align: right;
+    flex: 0 1 500px;
+}
+
+.about_title {
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+    margin: 0px 0px 15px 0px;
+}
+
+.about_text {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0px 0px 20px 0px;
+}
+
+.about_button {
+    color: white;
+    background-color: green;
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.section_two {
+    text-align: center;
+    padding: 40px 0 80px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.information_title {
+    font-size: 36px;
+    font-weight: 900;
+    padding: 0px 0px 40px 0px;
+}
+
+.information_row {
+    display: flex;
+    justify-content: space-between;
+}
